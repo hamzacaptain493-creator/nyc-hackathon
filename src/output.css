@@ -12,6 +12,7 @@
     --color-red-300: oklch(80.8% 0.114 19.571);
     --color-red-400: oklch(70.4% 0.191 22.216);
     --color-amber-300: oklch(87.9% 0.169 91.605);
+    --spacing: 0.25rem;
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
@@ -172,6 +173,21 @@
   }
 }
 @layer utilities {
+  .m-10 {
+    margin: calc(var(--spacing) * 10);
+  }
+  .m-100 {
+    margin: calc(var(--spacing) * 100);
+  }
+  .mx-20 {
+    margin-inline: calc(var(--spacing) * 20);
+  }
+  .my-20 {
+    margin-block: calc(var(--spacing) * 20);
+  }
+  .my-40 {
+    margin-block: calc(var(--spacing) * 40);
+  }
   .table {
     display: table;
   }
