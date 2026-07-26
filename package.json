@@ -1,0 +1,23 @@
+{
+  "name": "nyc-hackathon",
+  "version": "1.0.0",
+  "description": "github repo for team catalyst coders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzacaptain493-creator/nyc-hackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzacaptain493-creator/nyc-hackathon/issues"
+  },
+  "homepage": "https://github.com/hamzacaptain493-creator/nyc-hackathon#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
